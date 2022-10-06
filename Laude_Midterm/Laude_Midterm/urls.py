@@ -21,4 +21,5 @@ urlpatterns = [
     path('docker', views.docker, name =""),
     path('docker/build', views.build, name =""),
     path('docker/share', views.share, name =""),
+    path('docker/run', views.run, name =""),
 ]
